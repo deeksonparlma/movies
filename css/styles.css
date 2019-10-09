@@ -215,7 +215,7 @@ body{
   }
   .recents{
     position: absolute;
-    top:110vh;
+    top:100vh;
     width: 100%;
     }
     .row{
@@ -229,7 +229,7 @@ body{
   }
   .listings{
     position: absolute;
-    top:140vh;
+    top:130vh;
     border-radius: 100px 100px 0px 0px;
     width: 100%;
     background-color:rgba(0, 0, 34, 0.3);
