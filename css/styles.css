@@ -89,6 +89,38 @@ body{
     border-radius: 200px 200px 200px 200px;
     margin: auto;
   }
+  .listings{
+    position: absolute;
+    top:160vh;
+    border-radius: 100px 100px 0px 0px;
+    width: 100%;
+    background-color:rgba(0, 0, 34, 0.3);
+    height: 500px;
+  }
+  .col-md-3{
+    margin: auto;
+    color: red;
+  }
+  .hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    margin: 1em;
+    margin-top: 0px;
+    border-top: 1px solid red;
+  }
+  .stuffed1{
+    height: 10px;
+    width: 200px;
+    background-color: red;
+    margin-top: 10px;
+  }
+  .stuffed{
+    height: 10px;
+    width: 200px;
+    background-color: red;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width:800px){
@@ -181,5 +213,38 @@ body{
     width: 100px;
     border-radius: 200px 200px 200px 200px;
     margin: auto;
+  }
+  .listings{
+    position: absolute;
+    top:140vh;
+    border-radius: 100px 100px 0px 0px;
+    width: 100%;
+    background-color:rgba(0, 0, 34, 0.3);
+    height: 500px;
+  }
+  .col-md-3{
+    margin: auto;
+    font-size: 15px;
+    color: red;
+  }
+  .hr{
+    display: block;
+    height: 2px;
+    border: 0;
+    margin: 1em;
+    margin-top: 0px;
+    border-top: 1px solid red;
+  }
+  .stuffed1{
+    height: 4px;
+    width: 100px;
+    background-color: red;
+    margin-top: 10px;
+  }
+  .stuffed{
+    height: 4px;
+    width: 100px;
+    background-color: red;
+    margin-top: 10px;
   }
 }
