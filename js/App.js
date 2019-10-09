@@ -4,20 +4,11 @@ $(document).ready(function(){
   }, 1000);
   //scroll effect//
   $(window).scroll(function(){
-    if ($(document).scrollTop() > 50) {
-
+    if ($(document).scrollTop() > 200) {
+        // $(".nav").css("height", "50px");
           } else {
-
+        // $(".nav").css("height", "50px");
           }
-    if($(document).scrollTop() > 500){
-      $("#shopdrop").slideDown();
-      $(".text2").slideDown();
-      $(".pos").slideDown();
-    }
-      else{
-   $("#shopdrop").slideUp();
-   $(".text2").slideUp();
-      }
 
   });
 
