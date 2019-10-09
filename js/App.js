@@ -48,6 +48,21 @@ $(document).ready(function(){
     $(".logo").css("transition", "1s ease");
     $(".logo").css("margin-top", "10px");
   }
+  // var video = document.getElementById("video");
+  // function openFullScreen(){
+  //   if(video.requestFullScreen){
+  //     video.requestFullScreen();
+  //   }
+  //   else if(video.mozRequestFullScreen){
+  //     video.mozRequestFullScreen()
+  //   }
+  //   else if(video.msRequestFullScreen){
+  //     video.msRequestFullScreen();
+  //   }
+  //   else if(video.webkitRequestFullscreen){
+  //     video.webkitRequestFullscreen();
+  //   }
+  // }
   //
   $(".options").click(function() {
     $(".navbar").slideToggle();
