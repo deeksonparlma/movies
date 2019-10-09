@@ -1,4 +1,22 @@
 $(document).ready(function(){
+  $(".listingImage2").hide();
+  $(".tvshows1").click(function() {
+    $(".tvseries").css("color","black");
+    $(".stuffed1").css("background-color","black");
+    $(".tvshows").css("color","red");
+    $(".stuffed").css("background-color","red");
+    $(".listingImage").show();
+    $(".listingImage2").hide();
+  });
+  $(".tvseries1").click(function() {
+    $(".tvshows").css("color","black");
+    $(".stuffed").css("background-color","black");
+    $(".tvseries").css("color","red");
+    $(".stuffed1").css("background-color","red");
+    $(".listingImage2").show();
+    $(".listingImage").hide();
+  });
+
   setTimeout(function () {
     scale();
   }, 1000);

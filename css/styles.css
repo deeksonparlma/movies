@@ -112,7 +112,7 @@ body{
   .stuffed1{
     height: 10px;
     width: 200px;
-    background-color: red;
+    background-color: black;
     margin-top: 10px;
   }
   .stuffed{
@@ -120,6 +120,19 @@ body{
     width: 200px;
     background-color: red;
     margin-top: 10px;
+  }
+  .listingImage{
+    height: 300px;
+    margin-left: 8px ;
+    margin-top: 5px;
+  }
+  .listingImage2{
+    height: 300px;
+    margin-left: 8px ;
+    margin-top: 5px;
+  }
+  .tvseries{
+    color: black;
   }
 }
 
@@ -238,7 +251,7 @@ body{
   .stuffed1{
     height: 4px;
     width: 100px;
-    background-color: red;
+    background-color: black;
     margin-top: 10px;
   }
   .stuffed{
@@ -246,5 +259,18 @@ body{
     width: 100px;
     background-color: red;
     margin-top: 10px;
+  }
+  .listingImage{
+    height: 200px;
+    margin-left: 8px ;
+    margin-top: 5px;
+  }
+  .listingImage2{
+    height: 200px;
+    margin-left: 8px ;
+    margin-top: 5px;
+  }
+  .tvseries{
+    color: black;
   }
 }
