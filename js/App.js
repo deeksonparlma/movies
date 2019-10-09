@@ -22,10 +22,10 @@ $(document).ready(function(){
   }, 1000);
   //scroll effect//
   $(window).scroll(function(){
-    if ($(document).scrollTop() > 200) {
-        // $(".nav").css("height", "50px");
+    if ($(document).scrollTop() > 50) {
+        $(".nav").css("background-color", "rgba(0,0,45,0.8)");
           } else {
-        // $(".nav").css("height", "50px");
+        $(".nav").css("background-color", "rgba(0,0,0,1)");
           }
 
   });
@@ -44,7 +44,7 @@ $(document).ready(function(){
     }
   }
   function scale() {
-    $(".logo").css("transform", "scale(1.3)");
+    $(".logo").css("transform", "scale(1.5)");
     $(".logo").css("transition", "1s ease");
     $(".logo").css("margin-top", "10px");
   }
