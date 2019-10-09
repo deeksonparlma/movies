@@ -1,6 +1,6 @@
 $(document).ready(function(){
   $(".listingImage2").hide();
-  $(".tvshows1").click(function() {
+    $(".tvshows1").click(function() {
     $(".tvseries").css("color","black");
     $(".stuffed1").css("background-color","black");
     $(".tvshows").css("color","red");

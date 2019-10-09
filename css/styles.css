@@ -272,5 +272,9 @@ body{
   }
   .tvseries{
     color: black;
+    margin-left:60%;
+  }
+  .tvshows{
+    margin-left: 20%;
   }
 }
